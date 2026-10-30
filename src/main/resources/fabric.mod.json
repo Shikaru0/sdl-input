@@ -3,15 +3,15 @@
 	"id": "sdl-input",
 	"version": "${version}",
 	"name": "sdl-input",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Makes SDL handle input for lower latency input and better item usage when holding down buttons.",
 	"authors": [
-		"Me!"
+		"Shikaru0"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Shikaru0/sdl-input",
+		"sources": "https://github.com/Shikaru0/sdl-input"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/sdl-input/icon.png",
 	"environment": "*",
 	"entrypoints": {
