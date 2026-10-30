@@ -107,6 +107,8 @@ public class SdlInputHandler {
         rightClickHeldTicks++;
         if (rightClickHeldTicks <= 1) return;
 
+        if (player.isUsingItem()) return;
+
         ItemStack mainHand = player.getMainHandItem();
         ItemStack offHand = player.getOffhandItem();
 
