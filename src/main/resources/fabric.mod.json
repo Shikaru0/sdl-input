@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"name.modid.client.SdlInputClient"
+		],
+		"modmenu": [
+			"name.modid.client.config.SdlInputModMenuApi"
 		]
 	},
 	"mixins": [
